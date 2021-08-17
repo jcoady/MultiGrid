@@ -63,12 +63,15 @@ int main(int argc, char *argv[])
 	
 	switch (choice)
 	{
-		case 1: solver = new GaussSeidelSolver(world,10000,1e-4);
-		break;
-		case 2: solver = new FourierSolver(world);
-		break;
-		case 3: solver = new ConjugateGradientSolver(world);
-		break;
+		case 1: 
+			solver = new GaussSeidelSolver(world,10000,1e-4);
+			break;
+		case 2: 
+			solver = new FourierSolver(world);
+			break;
+		case 3: 
+			solver = new ConjugateGradientSolver(world);
+			break;
 		case 4:
 			cout << "MultiGrid V-Cycle size (1)V1 (2)V2 (3)V3 (4)V4 (5)V5: ";
 			cin >> choice2;
@@ -89,10 +92,11 @@ int main(int argc, char *argv[])
 					solver = new MultiGridSolver(world,10000,1e-4);
 				break;
 			}
+			break;
 		default: 
 			cout << "Invalid choice using Gauss-Seidel as default \n";
 			new GaussSeidelSolver(world,10000,1e-4);
-		break;
+			break;
 	}
 			
 
