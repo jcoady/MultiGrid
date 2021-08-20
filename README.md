@@ -9,11 +9,7 @@ These C++ files make use of the FFTW (Fastest Fourier Transform in the West) lib
 
     https://www.fftw.org/
     
-As well as the alglib library.
-
-   https://www.alglib.net/download.php
-  
-You will need to install these libraries if you want to compile the code in the Cpp directory.
+You will need to install this librarie if you want to compile the code in the Cpp directory.
 
 The code can be compiled with the command.
 
