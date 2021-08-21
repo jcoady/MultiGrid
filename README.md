@@ -9,7 +9,7 @@ These C++ files make use of the FFTW (Fastest Fourier Transform in the West) lib
 
     https://www.fftw.org/
     
-You will need to install this librarie if you want to compile the code in the Cpp directory.
+You will need to install this library if you want to compile the code in the Cpp directory.
 
 The code can be compiled with the command.
 
